@@ -12,3 +12,11 @@ Encrypted Letter = (Original Position + Shift) % 26
 Decrypted Letter = (Original Position - Shift) % 26
 
 The modulo (% 26) ensures the alphabet wraps around instead of going out of range.
+# Installation
+Clone the repository:
+
+git clone https://github.com/AmirsamHorriat0/CaesarCipher.git
+cd CaesarCipher
+# Usage 
+bash'''python3 Caesar.py'''
+* No external library , raw python 
